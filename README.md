@@ -2,7 +2,7 @@
 
 A sophisticated Retrieval-Augmented Generation (RAG) system designed to enhance legal research through AI, making judicial processes faster, fairer, and more transparent.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project was developed for the **SRM VDP Hackathon** as a solution to the "AI-Powered Justice System" challenge. It demonstrates how artificial intelligence can revolutionize legal research by providing accurate, source-backed answers from legal documents.
 
@@ -14,7 +14,7 @@ This project was developed for the **SRM VDP Hackathon** as a solution to the "A
 - **Source Attribution**: Every answer includes citations to specific documents and sections
 - **Optimized for Legal Domain**: Custom prompts and formatting tailored for legal research
 
-## 🏗️ Architecture
+## Architecture
 
 The system consists of three main components:
 
@@ -33,7 +33,7 @@ The system consists of three main components:
    - Context-aware prompting for legal domain
    - Token optimization to prevent overflow
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -59,7 +59,7 @@ pip install sentence-transformers faiss-cpu transformers PyPDF2 torch
 
 4. Open and run `VDP.ipynb` in Jupyter Notebook or VS Code
 
-## 📊 Usage
+## Usage
 
 ### Basic Usage
 
@@ -101,7 +101,7 @@ Sources Referenced:
   3. legal 3.pdf (chunk 16)
 ```
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Technologies Used
 
@@ -122,7 +122,7 @@ Sources Referenced:
 - **Max Generation**: 300 tokens
 - **Index Type**: Flat L2 (FAISS)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 SRM VDP HACKATHON/
@@ -140,7 +140,7 @@ SRM VDP HACKATHON/
     └── ...
 ```
 
-## 🎓 Hackathon Context
+## Hackathon Context
 
 ### Problem Statement
 
@@ -148,7 +148,7 @@ SRM VDP HACKATHON/
 
 Participants create a prototype highlighting one key function of their legal-AI system. This could be:
 - Case-outcome prediction model
-- Legal research engine ✓ (This project)
+- Legal research engine (This project)
 - Dashboard visualizing legal case data
 
 ### Solution Approach
@@ -159,14 +159,14 @@ This project focuses on the **Legal Research Engine** track, demonstrating AI's 
 2. **Fairness**: Unbiased, fact-based answers sourced directly from legal texts
 3. **Transparency**: Full source attribution and citation for every response
 
-## 🔬 Performance Optimizations
+## Performance Optimizations
 
 - **Token Management**: Automatic context truncation to prevent overflow
 - **Batch Processing**: Efficient embedding generation for large document sets
 - **CPU Compatibility**: Runs without GPU requirement
 - **Memory Efficiency**: Optimized chunk sizes and batch processing
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] Case outcome prediction using historical legal data
 - [ ] Interactive web dashboard with Streamlit/Gradio
@@ -175,38 +175,15 @@ This project focuses on the **Legal Research Engine** track, demonstrating AI's 
 - [ ] Citation graph visualization
 - [ ] Integration with legal databases and APIs
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - SRM VDP Hackathon organizers
 - Hugging Face for pre-trained models
 - FAISS team for the vector search library
 - The open-source AI community
 
-## 📧 Contact
-
-For questions or feedback, please reach out:
-
-- Email: your.email@example.com
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Project Link: [https://github.com/yourusername/legal-ai-research](https://github.com/yourusername/legal-ai-research)
 
 ---
 
