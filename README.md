@@ -4,7 +4,7 @@ A sophisticated Retrieval-Augmented Generation (RAG) system designed to enhance 
 
 ## Project Overview
 
-This project was developed for the **SRM VDP Hackathon** as a solution to the "AI-Powered Justice System" challenge. It demonstrates how artificial intelligence can revolutionize legal research by providing accurate, source-backed answers from legal documents.
+This project was developed for the **SRM VDP HackElite Hackathon** as a solution to the "AI-Powered Justice System" challenge. It demonstrates how artificial intelligence can revolutionize legal research by providing accurate, source-backed answers from legal documents.
 
 ### Key Features
 
@@ -187,4 +187,3 @@ This project focuses on the **Legal Research Engine** track, demonstrating AI's 
 
 ---
 
-**Note**: This is a hackathon prototype for educational and demonstration purposes. For production legal research systems, additional considerations around data security, compliance, and professional legal standards would be required.
