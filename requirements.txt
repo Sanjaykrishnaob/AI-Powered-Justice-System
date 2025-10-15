@@ -1,0 +1,21 @@
+# Legal RAG System v2.0 - Enhanced Version
+# Install with: pip install -r requirements.txt
+
+# Core Dependencies
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0
+transformers>=4.30.0
+PyPDF2>=3.0.0
+torch>=2.0.0
+
+# Enhanced Features (v2.0)
+ipywidgets>=8.0.0  # Interactive UI widget
+streamlit>=1.28.0  # Web frontend
+
+# Optional but Recommended
+numpy>=1.24.0
+IPython>=8.0.0
+
+# For development/testing
+jupyter>=1.0.0
+notebook>=6.5.0
